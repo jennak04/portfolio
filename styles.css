@@ -12,12 +12,13 @@ header nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
 }
 header nav ul li a {
     color: aliceblue;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1rem;
 }
 header nav ul li a:hover {
     text-decoration: underline;
@@ -45,4 +46,39 @@ header nav ul li a:hover {
     text-decoration: none;
     font-weight: bold;
     border-radius: 10px;
+}
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: lightpink;
+}
+.about p {
+    font-size: 1.5rem;
+    color: lightcyan;
+}
+.about h2 {
+    color: lightcyan;
+    text-decoration: underline 
+}
+
+/* Skills Section */
+.skills {
+    padding: 50px 20px;
+    text-align: center;
+}
+.skills h2 {
+    font-size: 2.5rem;
+}
+.skill-list {
+display: flex;
+justify-content: space-around;
+gap: 20px;
+flex-wrap: wrap;
+}
+.skill-item {
+    padding: 20px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    width: 25%;
 }
