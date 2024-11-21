@@ -66,9 +66,11 @@ header nav ul li a:hover {
 .skills {
     padding: 50px 20px;
     text-align: center;
+    background-color: papayawhip;
 }
 .skills h2 {
     font-size: 2.5rem;
+    color: wheat;
 }
 .skill-list {
 display: flex;
@@ -78,7 +80,34 @@ flex-wrap: wrap;
 }
 .skill-item {
     padding: 20px;
-    background-color: lightgreen;
+    background-color: powderblue;
     border-radius: 10px;
     width: 25%;
+    color: lightcyan;
 }
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: lightpink;
+}
+.projects h2 {
+    font-size: 2.5rem;
+    color: lightcyan;
+}
+.project-list {
+display: flex;
+justify-content: space-around;
+gap: 20px;
+flex-wrap: wrap;
+}
+.project-item {
+    padding: 20px;
+    background-color:powderblue;
+    border-radius: 10px;
+    width: 25%;
+    color: lightcyan;
+}
+img {
+width: 90%;
+}
+
