@@ -129,7 +129,7 @@ p {
 }
 .contact-container {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     gap: 30px;
     flex-wrap: wrap;
 }
@@ -160,7 +160,7 @@ p {
     border-radius: 10px;
 }
 .contact-form input, .contact-form textarea {
-    width: 100%;
+    width: 45%;
     padding: 12px;
     margin-bottom: 15px;
     border: none;
